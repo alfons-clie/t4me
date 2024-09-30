@@ -1,0 +1,377 @@
+# Logfile created on 2024-09-22 10:36:35 -0300 by logger.rb/v1.6.1
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 10:36:35 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9fa13a7e] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@1.2.3.4
+ DEBUG [9fa13a7e] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 11:20:57 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [803676c8] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [803676c8] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [803676c8] Finished in 58.674 seconds with exit status 0 (successful).
+ DEBUG [19e96337] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [19e96337] Command: /usr/bin/env which passenger
+ DEBUG [19e96337] 	/usr/bin/passenger
+ DEBUG [19e96337] Finished in 0.515 seconds with exit status 0 (successful).
+  INFO [60f0cc84] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [60f0cc84] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [60f0cc84] Finished in 0.511 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-1da49f143fdaa57f9e24.sh 0.0%
+  INFO Uploading /tmp/git-ssh-1da49f143fdaa57f9e24.sh 100.0%
+  INFO [7a4e3fea] Running /usr/bin/env chmod 700 /tmp/git-ssh-1da49f143fdaa57f9e24.sh as deploy@159.65.243.86
+ DEBUG [7a4e3fea] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-1da49f143fdaa57f9e24.sh )
+  INFO [7a4e3fea] Finished in 0.498 seconds with exit status 0 (successful).
+  INFO [e958e019] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD as deploy@159.65.243.86
+ DEBUG [e958e019] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1da49f143fdaa57f9e24.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD )
+ DEBUG [e958e019] 	Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+ DEBUG [e958e019] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 11:27:15 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [57c4073b] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [57c4073b] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [57c4073b] Finished in 27.940 seconds with exit status 0 (successful).
+ DEBUG [efd0aded] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [efd0aded] Command: /usr/bin/env which passenger
+ DEBUG [efd0aded] 	/usr/bin/passenger
+ DEBUG [efd0aded] Finished in 0.505 seconds with exit status 0 (successful).
+  INFO [24e948f2] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [24e948f2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [24e948f2] Finished in 0.496 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cec29b75e314ecca105d.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cec29b75e314ecca105d.sh 100.0%
+  INFO [847e44af] Running /usr/bin/env chmod 700 /tmp/git-ssh-cec29b75e314ecca105d.sh as deploy@159.65.243.86
+ DEBUG [847e44af] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-cec29b75e314ecca105d.sh )
+  INFO [847e44af] Finished in 0.500 seconds with exit status 0 (successful).
+  INFO [7639c234] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD as deploy@159.65.243.86
+ DEBUG [7639c234] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cec29b75e314ecca105d.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD )
+ DEBUG [7639c234] 	git@github.com: Permission denied (publickey).
+ DEBUG [7639c234] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 11:29:07 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [45dee3b7] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [45dee3b7] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [45dee3b7] Finished in 30.136 seconds with exit status 0 (successful).
+ DEBUG [3a082ed5] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [3a082ed5] Command: /usr/bin/env which passenger
+ DEBUG [3a082ed5] 	/usr/bin/passenger
+ DEBUG [3a082ed5] Finished in 0.517 seconds with exit status 0 (successful).
+  INFO [7bb55867] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [7bb55867] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [7bb55867] Finished in 0.494 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-6482c50fa39b968fbb49.sh 0.0%
+  INFO Uploading /tmp/git-ssh-6482c50fa39b968fbb49.sh 100.0%
+  INFO [e46edc79] Running /usr/bin/env chmod 700 /tmp/git-ssh-6482c50fa39b968fbb49.sh as deploy@159.65.243.86
+ DEBUG [e46edc79] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-6482c50fa39b968fbb49.sh )
+  INFO [e46edc79] Finished in 0.512 seconds with exit status 0 (successful).
+  INFO [df6480df] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD as deploy@159.65.243.86
+ DEBUG [df6480df] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6482c50fa39b968fbb49.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD )
+ DEBUG [df6480df] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 12:10:30 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cbf2f25c] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [cbf2f25c] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 12:20:27 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a351913c] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [a351913c] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [a351913c] Finished in 34.865 seconds with exit status 0 (successful).
+ DEBUG [20f0c214] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [20f0c214] Command: /usr/bin/env which passenger
+ DEBUG [20f0c214] 	/usr/bin/passenger
+ DEBUG [20f0c214] Finished in 0.498 seconds with exit status 0 (successful).
+  INFO [293a86ea] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [293a86ea] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [293a86ea] Finished in 0.494 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-849d2e589083af654639.sh 0.0%
+  INFO Uploading /tmp/git-ssh-849d2e589083af654639.sh 100.0%
+  INFO [1d6baa3c] Running /usr/bin/env chmod 700 /tmp/git-ssh-849d2e589083af654639.sh as deploy@159.65.243.86
+ DEBUG [1d6baa3c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-849d2e589083af654639.sh )
+  INFO [1d6baa3c] Finished in 0.498 seconds with exit status 0 (successful).
+  INFO [26d6ad3a] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD as deploy@159.65.243.86
+ DEBUG [26d6ad3a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-849d2e589083af654639.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_translt.git HEAD )
+ DEBUG [26d6ad3a] 	git@github.com: Permission denied (publickey).
+ DEBUG [26d6ad3a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 12:52:44 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [85b6f53a] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [85b6f53a] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [85b6f53a] Finished in 24.472 seconds with exit status 0 (successful).
+ DEBUG [c3a2d363] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [c3a2d363] Command: /usr/bin/env which passenger
+ DEBUG [c3a2d363] 	/usr/bin/passenger
+ DEBUG [c3a2d363] Finished in 0.498 seconds with exit status 0 (successful).
+  INFO [a2c4b4e2] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [a2c4b4e2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [a2c4b4e2] Finished in 0.513 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-2fc3c2bacc901e4cf4bb.sh 0.0%
+  INFO Uploading /tmp/git-ssh-2fc3c2bacc901e4cf4bb.sh 100.0%
+  INFO [b64a9eff] Running /usr/bin/env chmod 700 /tmp/git-ssh-2fc3c2bacc901e4cf4bb.sh as deploy@159.65.243.86
+ DEBUG [b64a9eff] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-2fc3c2bacc901e4cf4bb.sh )
+  INFO [b64a9eff] Finished in 0.496 seconds with exit status 0 (successful).
+  INFO [e98ba5c4] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [e98ba5c4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-2fc3c2bacc901e4cf4bb.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [e98ba5c4] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 13:19:24 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3963ac17] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [3963ac17] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [3963ac17] Finished in 50.992 seconds with exit status 0 (successful).
+ DEBUG [a3e034ad] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [a3e034ad] Command: /usr/bin/env which passenger
+ DEBUG [a3e034ad] 	/usr/bin/passenger
+ DEBUG [a3e034ad] Finished in 0.505 seconds with exit status 0 (successful).
+  INFO [b043d18c] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [b043d18c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b043d18c] Finished in 0.496 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-1b0683ed1eef4bb49657.sh 0.0%
+  INFO Uploading /tmp/git-ssh-1b0683ed1eef4bb49657.sh 100.0%
+  INFO [624d588e] Running /usr/bin/env chmod 700 /tmp/git-ssh-1b0683ed1eef4bb49657.sh as deploy@159.65.243.86
+ DEBUG [624d588e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-1b0683ed1eef4bb49657.sh )
+  INFO [624d588e] Finished in 0.505 seconds with exit status 0 (successful).
+  INFO [21658a26] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [21658a26] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1b0683ed1eef4bb49657.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [21658a26] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 17:40:40 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [99a832cf] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [99a832cf] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [99a832cf] Finished in 41.500 seconds with exit status 0 (successful).
+ DEBUG [bd098104] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [bd098104] Command: /usr/bin/env which passenger
+ DEBUG [bd098104] 	/usr/bin/passenger
+ DEBUG [bd098104] Finished in 0.499 seconds with exit status 0 (successful).
+  INFO [5da68135] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [5da68135] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [5da68135] Finished in 0.502 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-f628cb2584f956410f3a.sh 0.0%
+  INFO Uploading /tmp/git-ssh-f628cb2584f956410f3a.sh 100.0%
+  INFO [d8ab1cdf] Running /usr/bin/env chmod 700 /tmp/git-ssh-f628cb2584f956410f3a.sh as deploy@159.65.243.86
+ DEBUG [d8ab1cdf] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-f628cb2584f956410f3a.sh )
+  INFO [d8ab1cdf] Finished in 0.511 seconds with exit status 0 (successful).
+  INFO [1b7b4e3e] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [1b7b4e3e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f628cb2584f956410f3a.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [1b7b4e3e] 	git@github.com: Permission denied (publickey).
+ DEBUG [1b7b4e3e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 18:00:05 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [053cf112] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [053cf112] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 18:33:07 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6614acdd] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [6614acdd] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 18:35:08 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [84920a9b] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [84920a9b] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 18:53:19 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6053864c] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [6053864c] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 18:57:02 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [89254488] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [89254488] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 19:51:26 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1c41a8e1] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [1c41a8e1] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [1c41a8e1] Finished in 2.346 seconds with exit status 0 (successful).
+ DEBUG [3ef3e663] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [3ef3e663] Command: /usr/bin/env which passenger
+ DEBUG [3ef3e663] 	/usr/bin/passenger
+ DEBUG [3ef3e663] Finished in 0.955 seconds with exit status 0 (successful).
+  INFO [12239b83] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [12239b83] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [12239b83] Finished in 0.508 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-5ef84fb35a404b165744.sh 0.0%
+  INFO Uploading /tmp/git-ssh-5ef84fb35a404b165744.sh 100.0%
+  INFO [02b69995] Running /usr/bin/env chmod 700 /tmp/git-ssh-5ef84fb35a404b165744.sh as deploy@159.65.243.86
+ DEBUG [02b69995] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-5ef84fb35a404b165744.sh )
+  INFO [02b69995] Finished in 0.511 seconds with exit status 0 (successful).
+  INFO [0f8cfeb3] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [0f8cfeb3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5ef84fb35a404b165744.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [0f8cfeb3] 	git@github.com: Permission denied (publickey).
+ DEBUG [0f8cfeb3] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 19:52:47 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4cc5ec8e] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [4cc5ec8e] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [4cc5ec8e] Finished in 2.117 seconds with exit status 0 (successful).
+ DEBUG [d909407e] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [d909407e] Command: /usr/bin/env which passenger
+ DEBUG [d909407e] 	/usr/bin/passenger
+ DEBUG [d909407e] Finished in 0.495 seconds with exit status 0 (successful).
+  INFO [de1c470a] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [de1c470a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [de1c470a] Finished in 0.497 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-05393b2189923dd91671.sh 0.0%
+  INFO Uploading /tmp/git-ssh-05393b2189923dd91671.sh 100.0%
+  INFO [41f44737] Running /usr/bin/env chmod 700 /tmp/git-ssh-05393b2189923dd91671.sh as deploy@159.65.243.86
+ DEBUG [41f44737] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-05393b2189923dd91671.sh )
+  INFO [41f44737] Finished in 0.499 seconds with exit status 0 (successful).
+  INFO [468d901b] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [468d901b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-05393b2189923dd91671.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [468d901b] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-22 20:28:10 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0c5729b0] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [0c5729b0] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-23 00:00:10 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4074eb29] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [4074eb29] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-23 00:29:15 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [183d2022] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [183d2022] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-23 00:48:46 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e5c8afce] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [e5c8afce] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [e5c8afce] Finished in 2.175 seconds with exit status 0 (successful).
+ DEBUG [b7968599] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [b7968599] Command: /usr/bin/env which passenger
+ DEBUG [b7968599] 	/usr/bin/passenger
+ DEBUG [b7968599] Finished in 0.513 seconds with exit status 0 (successful).
+  INFO [b0db0c90] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [b0db0c90] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b0db0c90] Finished in 0.512 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-66c291558ed6bc3f49c2.sh 0.0%
+  INFO Uploading /tmp/git-ssh-66c291558ed6bc3f49c2.sh 100.0%
+  INFO [1c4998b2] Running /usr/bin/env chmod 700 /tmp/git-ssh-66c291558ed6bc3f49c2.sh as deploy@159.65.243.86
+ DEBUG [1c4998b2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-66c291558ed6bc3f49c2.sh )
+  INFO [1c4998b2] Finished in 0.516 seconds with exit status 0 (successful).
+  INFO [4e01b240] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [4e01b240] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-66c291558ed6bc3f49c2.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [4e01b240] 	git@github.com: Permission denied (publickey).
+ DEBUG [4e01b240] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-23 00:59:19 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b89c8c8a] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [b89c8c8a] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [b89c8c8a] Finished in 2.195 seconds with exit status 0 (successful).
+ DEBUG [98194adf] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [98194adf] Command: /usr/bin/env which passenger
+ DEBUG [98194adf] 	/usr/bin/passenger
+ DEBUG [98194adf] Finished in 0.515 seconds with exit status 0 (successful).
+  INFO [22416d40] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [22416d40] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [22416d40] Finished in 0.498 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-d54b2fd7a2c3dffcb791.sh 0.0%
+  INFO Uploading /tmp/git-ssh-d54b2fd7a2c3dffcb791.sh 100.0%
+  INFO [9356b19c] Running /usr/bin/env chmod 700 /tmp/git-ssh-d54b2fd7a2c3dffcb791.sh as deploy@159.65.243.86
+ DEBUG [9356b19c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-d54b2fd7a2c3dffcb791.sh )
+  INFO [9356b19c] Finished in 0.514 seconds with exit status 0 (successful).
+  INFO [0eb659cc] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [0eb659cc] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d54b2fd7a2c3dffcb791.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [0eb659cc] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-23 01:25:44 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2a2edb93] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [2a2edb93] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [2a2edb93] Finished in 2.201 seconds with exit status 0 (successful).
+ DEBUG [a5b71fb4] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [a5b71fb4] Command: /usr/bin/env which passenger
+ DEBUG [a5b71fb4] 	/usr/bin/passenger
+ DEBUG [a5b71fb4] Finished in 0.513 seconds with exit status 0 (successful).
+  INFO [0ab485b7] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [0ab485b7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0ab485b7] Finished in 0.502 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-be87322013410ca3ec61.sh 0.0%
+  INFO Uploading /tmp/git-ssh-be87322013410ca3ec61.sh 100.0%
+  INFO [ea6d6112] Running /usr/bin/env chmod 700 /tmp/git-ssh-be87322013410ca3ec61.sh as deploy@159.65.243.86
+ DEBUG [ea6d6112] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-be87322013410ca3ec61.sh )
+  INFO [ea6d6112] Finished in 0.504 seconds with exit status 0 (successful).
+  INFO [db727823] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [db727823] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-be87322013410ca3ec61.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [db727823] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-09-23 01:29:08 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3e87db2e] Running [ -d $HOME/.rbenv/versions/3.3.4 ] as deploy@159.65.243.86
+ DEBUG [3e87db2e] Command: [ -d $HOME/.rbenv/versions/3.3.4 ]
+ DEBUG [3e87db2e] Finished in 2.293 seconds with exit status 0 (successful).
+ DEBUG [47dc6ed6] Running /usr/bin/env which passenger as deploy@159.65.243.86
+ DEBUG [47dc6ed6] Command: /usr/bin/env which passenger
+ DEBUG [47dc6ed6] 	/usr/bin/passenger
+ DEBUG [47dc6ed6] Finished in 0.501 seconds with exit status 0 (successful).
+  INFO [0801d487] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.243.86
+ DEBUG [0801d487] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0801d487] Finished in 0.492 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-0f830a6f6844cc64fc29.sh 0.0%
+  INFO Uploading /tmp/git-ssh-0f830a6f6844cc64fc29.sh 100.0%
+  INFO [c35a1630] Running /usr/bin/env chmod 700 /tmp/git-ssh-0f830a6f6844cc64fc29.sh as deploy@159.65.243.86
+ DEBUG [c35a1630] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" ; /usr/bin/env chmod 700 /tmp/git-ssh-0f830a6f6844cc64fc29.sh )
+  INFO [c35a1630] Finished in 0.505 seconds with exit status 0 (successful).
+  INFO [3799a819] Running /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD as deploy@159.65.243.86
+ DEBUG [3799a819] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="3.3.4" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-0f830a6f6844cc64fc29.sh" ; /usr/bin/env git ls-remote git@github.com:alfons-clie/ruby_transltor.git HEAD )
+ DEBUG [3799a819] 	git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
